@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <title>OtherVenues</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 0px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 56px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 10px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    </style>
+    <link type="text/css" href="style/base.css" rel="stylesheet" />
+<link type="text/css" href="style/ForceDirected.css" rel="stylesheet" />
+    <script src="Jit/jit.js"></script>
+<!--    <script src="graphData.js"></script>  -->
+    <script src="graphVisualization.js"></script>    
+  </head>
+  <body onload="init();">
+    <script src="jquery-1.9.1.js"></script>                 
+<!--    <script src="bootstrap/js/bootstrap.min.js"></script>    -->
+
+
+    
+    
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <h3 class="muted">OtherVenues</h3>
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <h1><i>OtherVenues</i></h1>
+        <h2>Recommendations For Expanding Your Horizons</h2>
+        <p class="lead">For artists looking for new venues to play<br>For fans looking for new venues to try</p>
+      <hr>
+
+
+
+<div id="container">
+
+<div id="left-container">
+
+
+
+        <div class="text">
+        <h4>
+Force Directed Static Graph    
+        </h4> 
+
+            A static JSON Graph structure is used as input for this visualization.<br /><br />
+            You can <b>zoom</b> and <b>pan</b> the visualization by <b>scrolling</b> and <b>dragging</b>.<br /><br />
+            You can <b>change node positions</b> by <b>dragging the nodes around</b>.<br /><br />
+            The clicked node's connections are displayed in a relations list in the right column.<br /><br />
+            The JSON static data is customized to provide different node types, colors and widths.
+            
+        </div>
+
+        <div id="id-list"></div>
+
+
+<div style="text-align:center;"><a href="example1.code.html">See the Example Code</a></div>
+</div>
+
+<div id="center-container">
+    <div id="infovis"></div>    
+</div>
+
+<div id="right-container">
+
+<div id="inner-details"></div>
+
+</div>
+
+<div id="log"></div>
+</div>
+
+
+      <hr>
+
+      <div class="row-fluid marketing">
+        <div class="span6">
+          <h4>Artists</h4>
+          <p>Ever interested in discovered new venues to play?  Use places you already know about to find <b>OtherVenues</b>.</p>
+        </div>
+
+        <div class="span6">
+          <h4>Fans</h4>
+          <p>What are the best places you know of?  Find <b>OtherVenues</b> that are similar and expand your horizons.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <p>&copy;OtherVenues 2013 Powered by 
+        <a href="http://www.songkick.com"><img alt="Songkick" src="style/logo-songkick.png"></a> </p>
+      </div>
+
+    </div> <!-- /container -->
+    
+
+        
+  </body>
+</html>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41951591-1', 'othervenues.com');
+  ga('send', 'pageview');
+
+</script>
